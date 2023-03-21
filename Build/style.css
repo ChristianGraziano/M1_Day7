@@ -34,7 +34,7 @@ header>p {
 header>ul {
    display:flex;
    justify-content: space-between;
-   width: 25%;
+   width: 40%;
    margin: auto;
    padding: 15px;
    color: rgb(231, 77, 180);
@@ -49,6 +49,8 @@ header>ul>li:first-child {
 header li {
     
     list-style: none;
+    cursor: pointer;
+    
 }
 
 .first-div {
@@ -87,6 +89,7 @@ header>div.first-div>ul.flex {
     text-align: left;
     border-radius: 10px;
     font-weight: bold;
+    cursor: pointer;
 
 }
 
@@ -106,13 +109,16 @@ header>div.first-div>ul.flex {
     font-size: 24px;
     border-radius: 10px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .flex-item>img 
 {
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 250px;
     border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
 main {
@@ -124,7 +130,7 @@ main {
 }
 
 .flex-item {
-    padding: 30px;
+    margin: 20px;
 }
 
 
@@ -152,7 +158,8 @@ main {
 .autore p {
     padding: 0 10px;
     font-weight: 700;
-    font-size: 18;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .autore span {
@@ -171,8 +178,10 @@ main {
 i {
     padding: 10px;
     color: grey;
+    cursor: pointer;
 }
 
 .boosted {
     color: grey;
+    padding-top: 10px;
 }
